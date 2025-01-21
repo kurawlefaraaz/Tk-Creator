@@ -1,0 +1,4 @@
+widget = root.nametowidget("WIDGET_PATH")
+
+widget.bind("<Enter>", lambda e: e.widget.config(highlightbackground="red"))
+widget.bind("<Leave>", lambda e: e.widget.config(highlightbackground="SystemButtonFace"))
